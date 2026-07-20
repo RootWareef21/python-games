@@ -22,3 +22,12 @@ for y in range(5):
     pydle(4, y, "", "green")
 
     
+#147 
+#first attempt
+for x in range(5): 
+  [pydle(x,y,"","brown") for y in range(5)]
+  if x in (0, 4): [pydle(x, y, "", "orange") for y in (3, 4)]
+  if x % 2 == 0: pydle(x, 2, "", "orange")
+  if 1 <= x < 4: [pydle(x, 1, "", "orange") for y in (1, 3)]
+  if x == 2: pydle(x, 3, "", "red")
+  if x in (1, 3): pydle(x, 2, "", "blue")
