@@ -1,33 +1,62 @@
-#coderhub.sa
-## تحدي أرباح بائع الأضاحي   
-## وصف التحدي
+# 🏆 coderhub
+
+A collection of my solutions to programming challenges from **CoderHub.sa**.
+
+---
+
+<details>
+<summary><strong> تحدي أرباح بائع الأضاحي</strong></summary>
+
+**Platform:** CoderHub.sa
+
+### Description
+
 في عيد الأضحى المبارك، يشتري بائع الأضاحي الأغنام والماعز بأسعار مختلفة، ثم يبيعها لأهالي الحي بسعر أعلى.
+
 يريد البائع معرفة ربحه الإجمالي من هذه العمليات.
+
 تعطى للبائع قائمتان:
 
-أسعار الشراء لكل رأس من الأضاحي (بالريالات).
-أسعار البيع المقابلة لكل رأس (بالريالات).
-مهمتك هي كتابة دالة تُسمى calculateSacrificeProfit تقوم بما يلي:
+- أسعار الشراء لكل رأس من الأضاحي.
+- أسعار البيع المقابلة لكل رأس.
 
-تحسب الربح لكل رأس بضرب (سعر البيع − سعر الشراء).
-تلخص هذه الأرباح لتعيد الربح الإجمالي.
-إذا كان هناك ربح سلبي في أحد الرؤوس (أي خسارة)، يتم احتسابه أيضًا.
+###  Task
 
-## اختراق خيط المعلومات
-## وصف التحدي
-في عالم مليء بالبيانات المشفّرة والمعلومات المتناثرة داخل مستندات ضخمة، تواجه تحديًا يعتمد على مهارتك في تتبّع الأنماط. المطلوب هو العثور على أوّل ظهور لسلسلة نصّية معينة داخل نص طويل، وهي مهمة تبدو بسيطة لكنها تصبح معقدة جدًا مع ازدياد حجم البيانات.
+Write a function named `calculateSacrificeProfit` that:
 
-وفي مثل هذه التحديات، يبدأ التحليل دائمًا من نقطة الصفر، ومنها تنطلق للبحث عبر بحر الأحرف حتى تصل للموضع الذي تظهر فيه السلسلة المطلوبة.
+- Calculates the profit for each sacrifice (`sellPrice - buyPrice`).
+- Sums all profits and returns the total profit.
+- Includes negative profits (losses) in the final result.
 
-مهمتك هي كتابة خوارزمية تحدد موقع أول ظهور للسلسلة المستهدفة داخل النص، أو تعيد -1 إذا لم تكن موجودة.
+</details>
 
-مثال:
-تخيل أن لديك النص التالي:
+---
 
+<details>
+<summary><strong> اختراق خيط المعلومات</strong></summary>
+
+**Platform:** CoderHub.sa
+
+### Description
+
+في عالم مليء بالبيانات المشفّرة والمعلومات المتناثرة داخل مستندات ضخمة، تواجه تحديًا يعتمد على مهارتك في تتبّع الأنماط.
+
+المطلوب هو العثور على أوّل ظهور لسلسلة نصية داخل نص أطول.
+
+###  Task
+
+Write an algorithm that returns:
+
+- The index of the first occurrence of `needle` inside `haystack`.
+- `-1` if the substring does not exist.
+
+### 📌 Example
+
+```text
 haystack = "missionpossible"
-
 needle = "pos"
 
-هنا، كلمة "pos" تبدأ من الفهرس 7 في النص، لذا فإن المخرجات ستكون:
-
 Output: 7
+```
+
+</details>
