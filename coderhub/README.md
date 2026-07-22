@@ -1,4 +1,4 @@
-# 🏆 coderhub
+#  CoderHub
 
 A collection of my solutions to programming challenges from **CoderHub.sa**.
 
