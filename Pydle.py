@@ -31,3 +31,13 @@ for x in range(5):
   if 1 <= x < 4: [pydle(x, 1, "", "orange") for y in (1, 3)]
   if x == 2: pydle(x, 3, "", "red")
   if x in (1, 3): pydle(x, 2, "", "blue")
+
+#148
+#first attempt
+for x in range(5):
+    for y in range(5): pydle(x, y, "", "white")
+    if x >= 2: pydle(x, 0,"","black")
+    if x in (2, 4): pydle (x, 1, "","black")
+    if x in(0, 2, 3,4): pydle(x, 2, "","red") 
+    if x > 0: pydle(x,3, "", "red")
+    if x > 1: pydle(x,4, "", "red")
